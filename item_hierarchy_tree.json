@@ -1,0 +1,1982 @@
+{
+  "穀類": {
+    "パン": [
+      {
+        "item_name": "食パン",
+        "cpi_code": "1021",
+        "kakei_code": "010120010"
+      }
+    ],
+    "麺類": [
+      {
+        "item_name": "カップ麺",
+        "cpi_code": "1051",
+        "kakei_code": "010130050"
+      },
+      {
+        "item_name": "中華麺",
+        "cpi_code": "1052",
+        "kakei_code": "010130040"
+      }
+    ],
+    "他の穀類": [
+      {
+        "item_name": "小麦粉",
+        "cpi_code": "1071",
+        "kakei_code": "010140010"
+      },
+      {
+        "item_name": "もち",
+        "cpi_code": "1081",
+        "kakei_code": "010140020"
+      }
+    ]
+  },
+  "魚介類": {
+    "生鮮魚介": [
+      {
+        "item_name": "まぐろ",
+        "cpi_code": "1101",
+        "kakei_code": "010211010"
+      },
+      {
+        "item_name": "あじ",
+        "cpi_code": "1102",
+        "kakei_code": "010211020"
+      },
+      {
+        "item_name": "いわし",
+        "cpi_code": "1103",
+        "kakei_code": "010211030"
+      },
+      {
+        "item_name": "かつお",
+        "cpi_code": "1104",
+        "kakei_code": "010211040"
+      },
+      {
+        "item_name": "さけ",
+        "cpi_code": "1106",
+        "kakei_code": "010211060"
+      },
+      {
+        "item_name": "さば",
+        "cpi_code": "1107",
+        "kakei_code": "010211070"
+      },
+      {
+        "item_name": "さんま",
+        "cpi_code": "1108",
+        "kakei_code": "010211080"
+      },
+      {
+        "item_name": "たい",
+        "cpi_code": "1110",
+        "kakei_code": "010211090"
+      },
+      {
+        "item_name": "ぶり",
+        "cpi_code": "1111",
+        "kakei_code": "010211100"
+      },
+      {
+        "item_name": "いか",
+        "cpi_code": "1112",
+        "kakei_code": "010211110"
+      },
+      {
+        "item_name": "たこ",
+        "cpi_code": "1113",
+        "kakei_code": "010211120"
+      },
+      {
+        "item_name": "えび",
+        "cpi_code": "1114",
+        "kakei_code": "010211130"
+      },
+      {
+        "item_name": "あさり",
+        "cpi_code": "1131",
+        "kakei_code": "010212010"
+      },
+      {
+        "item_name": "かき",
+        "cpi_code": "1132",
+        "kakei_code": "010212030"
+      },
+      {
+        "item_name": "ほたて貝",
+        "cpi_code": "1133",
+        "kakei_code": "010212040"
+      }
+    ],
+    "塩干魚介": [
+      {
+        "item_name": "塩さけ",
+        "cpi_code": "1141",
+        "kakei_code": "010220010"
+      },
+      {
+        "item_name": "たらこ",
+        "cpi_code": "1142",
+        "kakei_code": "010220020"
+      },
+      {
+        "item_name": "しらす干し",
+        "cpi_code": "1143",
+        "kakei_code": "010220030"
+      },
+      {
+        "item_name": "干しあじ",
+        "cpi_code": "1144",
+        "kakei_code": "010220040"
+      }
+    ],
+    "魚肉練製品": [
+      {
+        "item_name": "揚げかまぼこ",
+        "cpi_code": "1151",
+        "kakei_code": "010230010"
+      },
+      {
+        "item_name": "ちくわ",
+        "cpi_code": "1152",
+        "kakei_code": "010230020"
+      },
+      {
+        "item_name": "かまぼこ",
+        "cpi_code": "1153",
+        "kakei_code": "010230030"
+      }
+    ],
+    "他の魚介加工品": [
+      {
+        "item_name": "かつお節",
+        "cpi_code": "1161",
+        "kakei_code": "010211040"
+      }
+    ]
+  },
+  "肉類": {
+    "生鮮肉": [
+      {
+        "item_name": "牛肉",
+        "cpi_code": "1201",
+        "kakei_code": "010310010"
+      },
+      {
+        "item_name": "牛肉",
+        "cpi_code": "1203",
+        "kakei_code": "010310010"
+      },
+      {
+        "item_name": "豚肉",
+        "cpi_code": "1211",
+        "kakei_code": "010310020"
+      },
+      {
+        "item_name": "豚肉",
+        "cpi_code": "1214",
+        "kakei_code": "010310020"
+      },
+      {
+        "item_name": "鶏肉",
+        "cpi_code": "1221",
+        "kakei_code": "010310030"
+      }
+    ],
+    "加工肉": [
+      {
+        "item_name": "ハム",
+        "cpi_code": "1252",
+        "kakei_code": "010320010"
+      },
+      {
+        "item_name": "ソーセージ",
+        "cpi_code": "1261",
+        "kakei_code": "010320020"
+      },
+      {
+        "item_name": "ベーコン",
+        "cpi_code": "1271",
+        "kakei_code": "010320030"
+      }
+    ]
+  },
+  "牛乳・乳製品": {
+    "牛乳": [
+      {
+        "item_name": "牛乳",
+        "cpi_code": "1303",
+        "kakei_code": "010410001"
+      }
+    ],
+    "乳製品": [
+      {
+        "item_name": "粉ミルク",
+        "cpi_code": "1311",
+        "kakei_code": "010420010"
+      },
+      {
+        "item_name": "ヨーグルト",
+        "cpi_code": "1333",
+        "kakei_code": "010420020"
+      },
+      {
+        "item_name": "バター",
+        "cpi_code": "1321",
+        "kakei_code": "010420030"
+      },
+      {
+        "item_name": "チーズ",
+        "cpi_code": "1331",
+        "kakei_code": "010420040"
+      },
+      {
+        "item_name": "チーズ",
+        "cpi_code": "1332",
+        "kakei_code": "010420040"
+      }
+    ]
+  },
+  "野菜・海藻": {
+    "生鮮野菜": [
+      {
+        "item_name": "キャベツ",
+        "cpi_code": "1401",
+        "kakei_code": "010511010"
+      },
+      {
+        "item_name": "ほうれんそう",
+        "cpi_code": "1402",
+        "kakei_code": "010511020"
+      },
+      {
+        "item_name": "はくさい",
+        "cpi_code": "1403",
+        "kakei_code": "010511030"
+      },
+      {
+        "item_name": "ねぎ",
+        "cpi_code": "1405",
+        "kakei_code": "010511040"
+      },
+      {
+        "item_name": "レタス",
+        "cpi_code": "1406",
+        "kakei_code": "010511050"
+      },
+      {
+        "item_name": "ブロッコリー",
+        "cpi_code": "1409",
+        "kakei_code": "010511060"
+      },
+      {
+        "item_name": "もやし",
+        "cpi_code": "1407",
+        "kakei_code": "010511070"
+      },
+      {
+        "item_name": "さつまいも",
+        "cpi_code": "1411",
+        "kakei_code": "010512010"
+      },
+      {
+        "item_name": "じゃがいも",
+        "cpi_code": "1412",
+        "kakei_code": "010512020"
+      },
+      {
+        "item_name": "さといも",
+        "cpi_code": "1413",
+        "kakei_code": "010512030"
+      },
+      {
+        "item_name": "だいこん",
+        "cpi_code": "1414",
+        "kakei_code": "010512040"
+      },
+      {
+        "item_name": "にんじん",
+        "cpi_code": "1415",
+        "kakei_code": "010512050"
+      },
+      {
+        "item_name": "ごぼう",
+        "cpi_code": "1416",
+        "kakei_code": "010512060"
+      },
+      {
+        "item_name": "たまねぎ",
+        "cpi_code": "1417",
+        "kakei_code": "010512070"
+      },
+      {
+        "item_name": "れんこん",
+        "cpi_code": "1419",
+        "kakei_code": "010512080"
+      },
+      {
+        "item_name": "かぼちゃ",
+        "cpi_code": "1433",
+        "kakei_code": "010513020"
+      },
+      {
+        "item_name": "きゅうり",
+        "cpi_code": "1434",
+        "kakei_code": "010513030"
+      },
+      {
+        "item_name": "なす",
+        "cpi_code": "1435",
+        "kakei_code": "010513040"
+      },
+      {
+        "item_name": "トマト",
+        "cpi_code": "1436",
+        "kakei_code": "010513050"
+      },
+      {
+        "item_name": "ピーマン",
+        "cpi_code": "1437",
+        "kakei_code": "010513060"
+      },
+      {
+        "item_name": "生しいたけ",
+        "cpi_code": "1438",
+        "kakei_code": "010513070"
+      },
+      {
+        "item_name": "えのきたけ",
+        "cpi_code": "1442",
+        "kakei_code": "010513090"
+      },
+      {
+        "item_name": "しめじ",
+        "cpi_code": "1443",
+        "kakei_code": "010513080"
+      }
+    ]
+  },
+  "乾物・加工品類": {
+    "乾物・海藻": [
+      {
+        "item_name": "干ししいたけ",
+        "cpi_code": "1453",
+        "kakei_code": "010520020"
+      },
+      {
+        "item_name": "干しのり",
+        "cpi_code": "1461",
+        "kakei_code": "010520030"
+      },
+      {
+        "item_name": "わかめ",
+        "cpi_code": "1462",
+        "kakei_code": "010520040"
+      },
+      {
+        "item_name": "こんぶ",
+        "cpi_code": "1463",
+        "kakei_code": "010520050"
+      }
+    ],
+    "大豆加工品": [
+      {
+        "item_name": "豆腐",
+        "cpi_code": "1471",
+        "kakei_code": "010530010"
+      },
+      {
+        "item_name": "油揚げ",
+        "cpi_code": "1472",
+        "kakei_code": "010530020"
+      },
+      {
+        "item_name": "納豆",
+        "cpi_code": "1473",
+        "kakei_code": "010530030"
+      }
+    ],
+    "他の野菜・海藻加工品": [
+      {
+        "item_name": "こんにゃく",
+        "cpi_code": "1481",
+        "kakei_code": "010540010"
+      },
+      {
+        "item_name": "梅干し",
+        "cpi_code": "1482",
+        "kakei_code": "010540020"
+      },
+      {
+        "item_name": "だいこん漬",
+        "cpi_code": "1483",
+        "kakei_code": "010540030"
+      },
+      {
+        "item_name": "はくさい漬",
+        "cpi_code": "1486",
+        "kakei_code": "010540040"
+      },
+      {
+        "item_name": "こんぶつくだ煮",
+        "cpi_code": "1485",
+        "kakei_code": "010540060"
+      }
+    ]
+  },
+  "果物": {
+    "生鮮果物": [
+      {
+        "item_name": "りんご",
+        "cpi_code": "1502",
+        "kakei_code": "010610010"
+      },
+      {
+        "item_name": "みかん",
+        "cpi_code": "1511",
+        "kakei_code": "010610020"
+      },
+      {
+        "item_name": "オレンジ",
+        "cpi_code": "1515",
+        "kakei_code": "010610040"
+      },
+      {
+        "item_name": "梨",
+        "cpi_code": "1521",
+        "kakei_code": "010610060"
+      },
+      {
+        "item_name": "ぶどう",
+        "cpi_code": "1531",
+        "kakei_code": "010610070"
+      },
+      {
+        "item_name": "ぶどう",
+        "cpi_code": "1532",
+        "kakei_code": "010610070"
+      },
+      {
+        "item_name": "柿",
+        "cpi_code": "1541",
+        "kakei_code": "010610080"
+      },
+      {
+        "item_name": "桃",
+        "cpi_code": "1551",
+        "kakei_code": "010610090"
+      },
+      {
+        "item_name": "すいか",
+        "cpi_code": "1561",
+        "kakei_code": "010610100"
+      },
+      {
+        "item_name": "メロン",
+        "cpi_code": "1563",
+        "kakei_code": "010610110"
+      },
+      {
+        "item_name": "いちご",
+        "cpi_code": "1571",
+        "kakei_code": "010610120"
+      },
+      {
+        "item_name": "バナナ",
+        "cpi_code": "1581",
+        "kakei_code": "010610130"
+      },
+      {
+        "item_name": "キウイフルーツ",
+        "cpi_code": "1582",
+        "kakei_code": "010610140"
+      }
+    ]
+  },
+  "油脂・調味料": {
+    "油脂": [
+      {
+        "item_name": "食用油",
+        "cpi_code": "1601",
+        "kakei_code": "010710010"
+      },
+      {
+        "item_name": "マーガリン",
+        "cpi_code": "1602",
+        "kakei_code": "010710020"
+      }
+    ],
+    "調味料": [
+      {
+        "item_name": "食塩",
+        "cpi_code": "1611",
+        "kakei_code": "010720010"
+      },
+      {
+        "item_name": "しょう油",
+        "cpi_code": "1621",
+        "kakei_code": "010720020"
+      },
+      {
+        "item_name": "みそ",
+        "cpi_code": "1631",
+        "kakei_code": "010720030"
+      },
+      {
+        "item_name": "砂糖",
+        "cpi_code": "1632",
+        "kakei_code": "010720040"
+      },
+      {
+        "item_name": "酢",
+        "cpi_code": "1633",
+        "kakei_code": "010720050"
+      },
+      {
+        "item_name": "ソース",
+        "cpi_code": "1641",
+        "kakei_code": "010720060"
+      },
+      {
+        "item_name": "ケチャップ",
+        "cpi_code": "1642",
+        "kakei_code": "010720070"
+      },
+      {
+        "item_name": "マヨネーズ",
+        "cpi_code": "1643",
+        "kakei_code": "010720080"
+      },
+      {
+        "item_name": "ドレッシング",
+        "cpi_code": "1645",
+        "kakei_code": "010720090"
+      },
+      {
+        "item_name": "ジャム",
+        "cpi_code": "1644",
+        "kakei_code": "010720100"
+      },
+      {
+        "item_name": "カレールウ",
+        "cpi_code": "1652",
+        "kakei_code": "010720110"
+      },
+      {
+        "item_name": "乾燥スープ",
+        "cpi_code": "1653",
+        "kakei_code": "010720120"
+      },
+      {
+        "item_name": "風味調味料",
+        "cpi_code": "1654",
+        "kakei_code": "010720130"
+      },
+      {
+        "item_name": "ふりかけ",
+        "cpi_code": "1656",
+        "kakei_code": "010720140"
+      },
+      {
+        "item_name": "たれ",
+        "cpi_code": "1655",
+        "kakei_code": "010720150"
+      },
+      {
+        "item_name": "つゆ",
+        "cpi_code": "1659",
+        "kakei_code": "010720150"
+      },
+      {
+        "item_name": "パスタソース",
+        "cpi_code": "1658",
+        "kakei_code": "010130030"
+      }
+    ]
+  },
+  "食料": {
+    "菓子類": [
+      {
+        "item_name": "ようかん",
+        "cpi_code": "1701",
+        "kakei_code": "010800010"
+      },
+      {
+        "item_name": "まんじゅう",
+        "cpi_code": "1702",
+        "kakei_code": "010800020"
+      },
+      {
+        "item_name": "カステラ",
+        "cpi_code": "1711",
+        "kakei_code": "010800040"
+      },
+      {
+        "item_name": "ケーキ",
+        "cpi_code": "1712",
+        "kakei_code": "010800050"
+      },
+      {
+        "item_name": "ゼリー",
+        "cpi_code": "1784",
+        "kakei_code": "010800060"
+      },
+      {
+        "item_name": "プリン",
+        "cpi_code": "1714",
+        "kakei_code": "010800070"
+      },
+      {
+        "item_name": "ロールケーキ",
+        "cpi_code": "1715",
+        "kakei_code": "010800050"
+      },
+      {
+        "item_name": "せんべい",
+        "cpi_code": "1741",
+        "kakei_code": "010800090"
+      },
+      {
+        "item_name": "ビスケット",
+        "cpi_code": "1721",
+        "kakei_code": "010800100"
+      },
+      {
+        "item_name": "キャンデー",
+        "cpi_code": "1732",
+        "kakei_code": "010800120"
+      },
+      {
+        "item_name": "チョコレート",
+        "cpi_code": "1761",
+        "kakei_code": "010800130"
+      },
+      {
+        "item_name": "アイスクリーム",
+        "cpi_code": "1782",
+        "kakei_code": "010800150"
+      }
+    ],
+    "酒類": [
+      {
+        "item_name": "清酒",
+        "cpi_code": "2003",
+        "kakei_code": "011100010"
+      },
+      {
+        "item_name": "焼酎",
+        "cpi_code": "2011",
+        "kakei_code": "011100020"
+      },
+      {
+        "item_name": "ビール",
+        "cpi_code": "2021",
+        "kakei_code": "011100030"
+      },
+      {
+        "item_name": "発泡酒",
+        "cpi_code": "2026",
+        "kakei_code": "011100060"
+      },
+      {
+        "item_name": "ウイスキー",
+        "cpi_code": "2033",
+        "kakei_code": "011100040"
+      },
+      {
+        "item_name": "ワイン",
+        "cpi_code": "2041",
+        "kakei_code": "011100050"
+      },
+      {
+        "item_name": "ワイン",
+        "cpi_code": "2042",
+        "kakei_code": "011100050"
+      },
+      {
+        "item_name": "チューハイ",
+        "cpi_code": "2012",
+        "kakei_code": "011100070"
+      },
+      {
+        "item_name": "ビール風アルコール飲料",
+        "cpi_code": "2027",
+        "kakei_code": "011100060"
+      }
+    ]
+  },
+  "調理食品": {
+    "主食的調理食品": [
+      {
+        "item_name": "すし",
+        "cpi_code": "1795",
+        "kakei_code": "011211040"
+      },
+      {
+        "item_name": "すし",
+        "cpi_code": "1798",
+        "kakei_code": "011211040"
+      },
+      {
+        "item_name": "弁当",
+        "cpi_code": "1791",
+        "kakei_code": "010910010"
+      },
+      {
+        "item_name": "弁当",
+        "cpi_code": "1797",
+        "kakei_code": "010910010"
+      },
+      {
+        "item_name": "おにぎり",
+        "cpi_code": "1793",
+        "kakei_code": "010910030"
+      },
+      {
+        "item_name": "調理パン",
+        "cpi_code": "1792",
+        "kakei_code": "010910040"
+      },
+      {
+        "item_name": "調理パスタ",
+        "cpi_code": "1796",
+        "kakei_code": "010130030"
+      }
+    ],
+    "他の調理食品": [
+      {
+        "item_name": "サラダ",
+        "cpi_code": "1811",
+        "kakei_code": "010920020"
+      },
+      {
+        "item_name": "コロッケ",
+        "cpi_code": "1821",
+        "kakei_code": "010920030"
+      },
+      {
+        "item_name": "ぎょうざ",
+        "cpi_code": "1881",
+        "kakei_code": "010920070"
+      },
+      {
+        "item_name": "やきとり",
+        "cpi_code": "1843",
+        "kakei_code": "010920080"
+      },
+      {
+        "item_name": "ハンバーグ",
+        "cpi_code": "1844",
+        "kakei_code": "010920090"
+      },
+      {
+        "item_name": "冷凍調理コロッケ",
+        "cpi_code": "1851",
+        "kakei_code": "010920030"
+      },
+      {
+        "item_name": "冷凍調理ハンバーグ",
+        "cpi_code": "1852",
+        "kakei_code": "010920090"
+      },
+      {
+        "item_name": "冷凍ぎょうざ",
+        "cpi_code": "1853",
+        "kakei_code": "010920070"
+      },
+      {
+        "item_name": "サラダチキン",
+        "cpi_code": "1892",
+        "kakei_code": "010920020"
+      }
+    ]
+  },
+  "飲料": {
+    "茶類": [
+      {
+        "item_name": "緑茶",
+        "cpi_code": "1902",
+        "kakei_code": "011010010"
+      },
+      {
+        "item_name": "紅茶",
+        "cpi_code": "1911",
+        "kakei_code": "011010020"
+      },
+      {
+        "item_name": "茶飲料",
+        "cpi_code": "1914",
+        "kakei_code": "011010040"
+      }
+    ],
+    "コーヒー・ココア": [
+      {
+        "item_name": "インスタントコーヒー",
+        "cpi_code": "1921",
+        "kakei_code": "011020010"
+      },
+      {
+        "item_name": "コーヒー豆",
+        "cpi_code": "1922",
+        "kakei_code": "011020010"
+      },
+      {
+        "item_name": "コーヒー飲料",
+        "cpi_code": "1923",
+        "kakei_code": "011020020"
+      },
+      {
+        "item_name": "コーヒー飲料",
+        "cpi_code": "1924",
+        "kakei_code": "011020020"
+      }
+    ],
+    "他の飲料": [
+      {
+        "item_name": "野菜ジュース",
+        "cpi_code": "1941",
+        "kakei_code": "011030010"
+      },
+      {
+        "item_name": "炭酸飲料",
+        "cpi_code": "1951",
+        "kakei_code": "011030020"
+      },
+      {
+        "item_name": "乳酸菌飲料",
+        "cpi_code": "1972",
+        "kakei_code": "011030030"
+      },
+      {
+        "item_name": "ミネラルウォーター",
+        "cpi_code": "1982",
+        "kakei_code": "011030050"
+      },
+      {
+        "item_name": "スポーツドリンク",
+        "cpi_code": "1981",
+        "kakei_code": "011030060"
+      }
+    ]
+  },
+  "外食": {
+    "一般外食": [
+      {
+        "item_name": "うどん",
+        "cpi_code": "2101",
+        "kakei_code": "010130010"
+      },
+      {
+        "item_name": "日本そば",
+        "cpi_code": "2103",
+        "kakei_code": "011211010"
+      },
+      {
+        "item_name": "中華そば",
+        "cpi_code": "2102",
+        "kakei_code": "011211020"
+      },
+      {
+        "item_name": "すし",
+        "cpi_code": "2123",
+        "kakei_code": "011211040"
+      },
+      {
+        "item_name": "すし",
+        "cpi_code": "2121",
+        "kakei_code": "011211040"
+      },
+      {
+        "item_name": "ぎょうざ",
+        "cpi_code": "2134",
+        "kakei_code": "010920070"
+      },
+      {
+        "item_name": "ハンバーグ",
+        "cpi_code": "2141",
+        "kakei_code": "010920090"
+      },
+      {
+        "item_name": "焼肉",
+        "cpi_code": "2145",
+        "kakei_code": "011211080"
+      },
+      {
+        "item_name": "ハンバーガー",
+        "cpi_code": "2135",
+        "kakei_code": "011211090"
+      },
+      {
+        "item_name": "コーヒー",
+        "cpi_code": "2162",
+        "kakei_code": "011020010"
+      },
+      {
+        "item_name": "コーヒー",
+        "cpi_code": "2165",
+        "kakei_code": "011020010"
+      },
+      {
+        "item_name": "ビール",
+        "cpi_code": "2171",
+        "kakei_code": "011100030"
+      },
+      {
+        "item_name": "やきとり",
+        "cpi_code": "2172",
+        "kakei_code": "010920080"
+      }
+    ],
+    "学校給食": [
+      {
+        "item_name": "学校給食",
+        "cpi_code": "2182",
+        "kakei_code": "011220001"
+      },
+      {
+        "item_name": "学校給食",
+        "cpi_code": "2183",
+        "kakei_code": "011220001"
+      }
+    ]
+  },
+  "家賃": {
+    "民営家賃": [
+      {
+        "item_name": "民営家賃",
+        "cpi_code": "3000",
+        "kakei_code": "020100010"
+      }
+    ],
+    "公営・都市再生機構・公社家賃": [
+      {
+        "item_name": "公営家賃",
+        "cpi_code": "3016",
+        "kakei_code": "020100020"
+      }
+    ]
+  },
+  "設備修繕・維持": {
+    "設備材料": [
+      {
+        "item_name": "修繕材料",
+        "cpi_code": "3121",
+        "kakei_code": "020210020"
+      }
+    ],
+    "工事その他のサービス": [
+      {
+        "item_name": "畳替え代",
+        "cpi_code": "3151",
+        "kakei_code": "020220010"
+      },
+      {
+        "item_name": "火災・地震保険料",
+        "cpi_code": "3180",
+        "kakei_code": "020220060"
+      }
+    ]
+  },
+  "光熱・水道": {
+    "電気代": [
+      {
+        "item_name": "電気代",
+        "cpi_code": "3500",
+        "kakei_code": "030100000"
+      }
+    ],
+    "ガス代": [
+      {
+        "item_name": "都市ガス代",
+        "cpi_code": "3600",
+        "kakei_code": "030200010"
+      },
+      {
+        "item_name": "プロパンガス",
+        "cpi_code": "3612",
+        "kakei_code": "030200020"
+      }
+    ],
+    "他の光熱": [
+      {
+        "item_name": "灯油",
+        "cpi_code": "3701",
+        "kakei_code": "030300010"
+      }
+    ],
+    "上下水道料": [
+      {
+        "item_name": "水道料",
+        "cpi_code": "3810",
+        "kakei_code": "030400001"
+      },
+      {
+        "item_name": "下水道料",
+        "cpi_code": "4610",
+        "kakei_code": "030400001"
+      }
+    ]
+  },
+  "家庭用耐久財": {
+    "家事用耐久財": [
+      {
+        "item_name": "電子レンジ",
+        "cpi_code": "4003",
+        "kakei_code": "040110010"
+      },
+      {
+        "item_name": "電気冷蔵庫",
+        "cpi_code": "4021",
+        "kakei_code": "040110040"
+      },
+      {
+        "item_name": "電気掃除機",
+        "cpi_code": "4032",
+        "kakei_code": "040110050"
+      },
+      {
+        "item_name": "電気洗濯機",
+        "cpi_code": "4042",
+        "kakei_code": "040110060"
+      },
+      {
+        "item_name": "電気洗濯機",
+        "cpi_code": "4043",
+        "kakei_code": "040110060"
+      }
+    ],
+    "冷暖房用器具": [
+      {
+        "item_name": "ルームエアコン",
+        "cpi_code": "4063",
+        "kakei_code": "040120010"
+      },
+      {
+        "item_name": "温風ヒーター",
+        "cpi_code": "4072",
+        "kakei_code": "040120020"
+      }
+    ],
+    "一般家具": [
+      {
+        "item_name": "ソファ",
+        "cpi_code": "4093",
+        "kakei_code": "040130030"
+      },
+      {
+        "item_name": "食器戸棚",
+        "cpi_code": "4083",
+        "kakei_code": "040130040"
+      }
+    ]
+  },
+  "家具・家事用品": {
+    "室内装備品": [
+      {
+        "item_name": "照明器具",
+        "cpi_code": "4115",
+        "kakei_code": "040200020"
+      },
+      {
+        "item_name": "カーテン",
+        "cpi_code": "4141",
+        "kakei_code": "040200050"
+      }
+    ],
+    "寝具類": [
+      {
+        "item_name": "ベッド",
+        "cpi_code": "4201",
+        "kakei_code": "040300010"
+      },
+      {
+        "item_name": "布団",
+        "cpi_code": "4211",
+        "kakei_code": "040300020"
+      },
+      {
+        "item_name": "敷布",
+        "cpi_code": "4251",
+        "kakei_code": "040300040"
+      },
+      {
+        "item_name": "布団カバー",
+        "cpi_code": "4271",
+        "kakei_code": "040300020"
+      }
+    ]
+  },
+  "家事雑貨": {
+    "食器類": [
+      {
+        "item_name": "茶わん",
+        "cpi_code": "4301",
+        "kakei_code": "040400010"
+      },
+      {
+        "item_name": "皿",
+        "cpi_code": "4302",
+        "kakei_code": "040400010"
+      }
+    ],
+    "台所用品": [
+      {
+        "item_name": "鍋",
+        "cpi_code": "4331",
+        "kakei_code": "040400030"
+      }
+    ],
+    "他の家事雑貨": [
+      {
+        "item_name": "電球・ランプ",
+        "cpi_code": "4352",
+        "kakei_code": "040400050"
+      },
+      {
+        "item_name": "タオル",
+        "cpi_code": "4361",
+        "kakei_code": "040400060"
+      }
+    ]
+  },
+  "家事用消耗品": {
+    "ティシュ・トイレットペーパー": [
+      {
+        "item_name": "トイレットペーパー",
+        "cpi_code": "4413",
+        "kakei_code": "040501020"
+      }
+    ],
+    "洗剤": [
+      {
+        "item_name": "洗濯用洗剤",
+        "cpi_code": "4441",
+        "kakei_code": "040502020"
+      }
+    ],
+    "他の家事用消耗品": [
+      {
+        "item_name": "ラップ",
+        "cpi_code": "4401",
+        "kakei_code": "040503010"
+      },
+      {
+        "item_name": "ポリ袋",
+        "cpi_code": "4402",
+        "kakei_code": "040503010"
+      },
+      {
+        "item_name": "柔軟仕上剤",
+        "cpi_code": "4442",
+        "kakei_code": "040503030"
+      },
+      {
+        "item_name": "芳香・消臭剤",
+        "cpi_code": "4471",
+        "kakei_code": "040503040"
+      }
+    ]
+  },
+  "家事サービス": {
+    "家事代行料": [
+      {
+        "item_name": "家事代行料",
+        "cpi_code": "4501",
+        "kakei_code": "040600010"
+      }
+    ],
+    "清掃代": [
+      {
+        "item_name": "浄化槽清掃代",
+        "cpi_code": "4515",
+        "kakei_code": "040600020"
+      }
+    ]
+  },
+  "洋服": {
+    "男子用洋服": [
+      {
+        "item_name": "背広服",
+        "cpi_code": "5101",
+        "kakei_code": "050210010"
+      },
+      {
+        "item_name": "背広服",
+        "cpi_code": "5103",
+        "kakei_code": "050210010"
+      },
+      {
+        "item_name": "背広服",
+        "cpi_code": "5102",
+        "kakei_code": "050210010"
+      },
+      {
+        "item_name": "背広服",
+        "cpi_code": "5104",
+        "kakei_code": "050210010"
+      },
+      {
+        "item_name": "男子用上着",
+        "cpi_code": "5111",
+        "kakei_code": "050210020"
+      },
+      {
+        "item_name": "男子用ズボン",
+        "cpi_code": "5122",
+        "kakei_code": "050210030"
+      },
+      {
+        "item_name": "男子用ズボン",
+        "cpi_code": "5121",
+        "kakei_code": "050210030"
+      },
+      {
+        "item_name": "男子用ズボン",
+        "cpi_code": "5123",
+        "kakei_code": "050210030"
+      },
+      {
+        "item_name": "男子用コート",
+        "cpi_code": "5131",
+        "kakei_code": "050210040"
+      },
+      {
+        "item_name": "男子用学校制服",
+        "cpi_code": "5141",
+        "kakei_code": "050210050"
+      }
+    ],
+    "婦人用洋服": [
+      {
+        "item_name": "婦人用上着",
+        "cpi_code": "5183",
+        "kakei_code": "050220020"
+      },
+      {
+        "item_name": "スカート",
+        "cpi_code": "5169",
+        "kakei_code": "050220030"
+      },
+      {
+        "item_name": "スカート",
+        "cpi_code": "5172",
+        "kakei_code": "050220030"
+      },
+      {
+        "item_name": "婦人用スラックス",
+        "cpi_code": "5181",
+        "kakei_code": "050220040"
+      },
+      {
+        "item_name": "婦人用スラックス",
+        "cpi_code": "5179",
+        "kakei_code": "050220040"
+      },
+      {
+        "item_name": "婦人用コート",
+        "cpi_code": "5182",
+        "kakei_code": "050220050"
+      },
+      {
+        "item_name": "女子用学校制服",
+        "cpi_code": "5184",
+        "kakei_code": "050220060"
+      }
+    ],
+    "子供用洋服": [
+      {
+        "item_name": "乳児服",
+        "cpi_code": "5193",
+        "kakei_code": "050230020"
+      }
+    ]
+  },
+  "シャツ・セーター類": {
+    "男子用シャツ・セーター類": [
+      {
+        "item_name": "ワイシャツ",
+        "cpi_code": "5202",
+        "kakei_code": "050310010"
+      },
+      {
+        "item_name": "男子用スポーツシャツ",
+        "cpi_code": "5211",
+        "kakei_code": "130200040"
+      },
+      {
+        "item_name": "男子用スポーツシャツ",
+        "cpi_code": "5212",
+        "kakei_code": "130200040"
+      },
+      {
+        "item_name": "男子用セーター",
+        "cpi_code": "5221",
+        "kakei_code": "050310030"
+      }
+    ],
+    "婦人用シャツ・セーター類": [
+      {
+        "item_name": "ブラウス",
+        "cpi_code": "5231",
+        "kakei_code": "050320010"
+      },
+      {
+        "item_name": "ブラウス",
+        "cpi_code": "5232",
+        "kakei_code": "050320010"
+      },
+      {
+        "item_name": "婦人用セーター",
+        "cpi_code": "5241",
+        "kakei_code": "050320030"
+      },
+      {
+        "item_name": "婦人用セーター",
+        "cpi_code": "5242",
+        "kakei_code": "050320030"
+      }
+    ]
+  },
+  "下着類": {
+    "男子用下着類": [
+      {
+        "item_name": "男子用シャツ",
+        "cpi_code": "5301",
+        "kakei_code": "050310000"
+      }
+    ],
+    "子供用下着類": [
+      {
+        "item_name": "子供用下着",
+        "cpi_code": "5372",
+        "kakei_code": "050430010"
+      }
+    ]
+  },
+  "被服及び履物": {
+    "履物類": [
+      {
+        "item_name": "男子靴",
+        "cpi_code": "5601",
+        "kakei_code": "050700030"
+      },
+      {
+        "item_name": "婦人靴",
+        "cpi_code": "5611",
+        "kakei_code": "050700040"
+      },
+      {
+        "item_name": "運動靴",
+        "cpi_code": "5631",
+        "kakei_code": "050700010"
+      },
+      {
+        "item_name": "サンダル",
+        "cpi_code": "5671",
+        "kakei_code": "050700020"
+      }
+    ],
+    "他の被服": [
+      {
+        "item_name": "帽子",
+        "cpi_code": "5501",
+        "kakei_code": "050600010"
+      },
+      {
+        "item_name": "ネクタイ",
+        "cpi_code": "5511",
+        "kakei_code": "050600020"
+      },
+      {
+        "item_name": "マフラー",
+        "cpi_code": "5572",
+        "kakei_code": "050600030"
+      },
+      {
+        "item_name": "男子用靴下",
+        "cpi_code": "5521",
+        "kakei_code": "050600050"
+      },
+      {
+        "item_name": "婦人用ストッキング",
+        "cpi_code": "5531",
+        "kakei_code": "050600060"
+      },
+      {
+        "item_name": "婦人用ソックス",
+        "cpi_code": "5541",
+        "kakei_code": "050600070"
+      }
+    ],
+    "被服関連サービス": [
+      {
+        "item_name": "被服賃借料",
+        "cpi_code": "5731",
+        "kakei_code": "050800020"
+      }
+    ]
+  },
+  "保健医療": {
+    "医薬品・健康保持用摂取品": [
+      {
+        "item_name": "胃腸薬",
+        "cpi_code": "6012",
+        "kakei_code": "060100020"
+      },
+      {
+        "item_name": "皮膚病薬",
+        "cpi_code": "6051",
+        "kakei_code": "060100040"
+      },
+      {
+        "item_name": "健康保持用摂取品",
+        "cpi_code": "6090",
+        "kakei_code": "060200001"
+      },
+      {
+        "item_name": "健康保持用摂取品",
+        "cpi_code": "6094",
+        "kakei_code": "060200001"
+      }
+    ],
+    "保健医療用品・器具": [
+      {
+        "item_name": "紙おむつ",
+        "cpi_code": "6141",
+        "kakei_code": "060300010"
+      },
+      {
+        "item_name": "紙おむつ",
+        "cpi_code": "6142",
+        "kakei_code": "060300010"
+      },
+      {
+        "item_name": "コンタクトレンズ用剤",
+        "cpi_code": "6181",
+        "kakei_code": "060300040"
+      },
+      {
+        "item_name": "眼鏡",
+        "cpi_code": "6121",
+        "kakei_code": "060300030"
+      },
+      {
+        "item_name": "コンタクトレンズ",
+        "cpi_code": "6161",
+        "kakei_code": "060300040"
+      }
+    ],
+    "保健医療サービス": [
+      {
+        "item_name": "診療代",
+        "cpi_code": "6200",
+        "kakei_code": "060400010"
+      },
+      {
+        "item_name": "マッサージ料金",
+        "cpi_code": "6221",
+        "kakei_code": "060400060"
+      }
+    ]
+  },
+  "交通": {
+    "鉄道運賃": [
+      {
+        "item_name": "料金",
+        "cpi_code": "7528",
+        "kakei_code": "060400060"
+      },
+      {
+        "item_name": "料金",
+        "cpi_code": "7530",
+        "kakei_code": "060400060"
+      },
+      {
+        "item_name": "通学定期",
+        "cpi_code": "7029",
+        "kakei_code": "070100020"
+      },
+      {
+        "item_name": "通勤定期",
+        "cpi_code": "7030",
+        "kakei_code": "070100030"
+      },
+      {
+        "item_name": "通学定期",
+        "cpi_code": "7009",
+        "kakei_code": "070100020"
+      },
+      {
+        "item_name": "通勤定期",
+        "cpi_code": "7010",
+        "kakei_code": "070100030"
+      }
+    ],
+    "他の交通": [
+      {
+        "item_name": "一般路線バス代",
+        "cpi_code": "7050",
+        "kakei_code": "070100040"
+      },
+      {
+        "item_name": "高速バス代",
+        "cpi_code": "7057",
+        "kakei_code": "070100040"
+      },
+      {
+        "item_name": "タクシー代",
+        "cpi_code": "7060",
+        "kakei_code": "070100070"
+      },
+      {
+        "item_name": "航空運賃",
+        "cpi_code": "7070",
+        "kakei_code": "070100080"
+      }
+    ]
+  },
+  "自動車等関係費": {
+    "自転車": [
+      {
+        "item_name": "自転車",
+        "cpi_code": "7201",
+        "kakei_code": "070220001"
+      },
+      {
+        "item_name": "自転車",
+        "cpi_code": "7202",
+        "kakei_code": "070220001"
+      }
+    ],
+    "自動車等維持": [
+      {
+        "item_name": "ガソリン",
+        "cpi_code": "7301",
+        "kakei_code": "070230010"
+      },
+      {
+        "item_name": "自動車整備費",
+        "cpi_code": "7331",
+        "kakei_code": "070230040"
+      },
+      {
+        "item_name": "自動車整備費",
+        "cpi_code": "7335",
+        "kakei_code": "070230040"
+      },
+      {
+        "item_name": "ロードサービス料",
+        "cpi_code": "7350",
+        "kakei_code": "111100040"
+      },
+      {
+        "item_name": "自動車保険料",
+        "cpi_code": "7370",
+        "kakei_code": "070230110"
+      },
+      {
+        "item_name": "自動車保険料",
+        "cpi_code": "7390",
+        "kakei_code": "070230110"
+      }
+    ]
+  },
+  "交通・通信": {
+    "通信": [
+      {
+        "item_name": "通信料",
+        "cpi_code": "7410",
+        "kakei_code": "070300020"
+      },
+      {
+        "item_name": "通信料",
+        "cpi_code": "7430",
+        "kakei_code": "070300020"
+      },
+      {
+        "item_name": "運送料",
+        "cpi_code": "7433",
+        "kakei_code": "070300040"
+      },
+      {
+        "item_name": "携帯電話機",
+        "cpi_code": "7446",
+        "kakei_code": "070300050"
+      }
+    ]
+  },
+  "教育": {
+    "授業料等": [
+      {
+        "item_name": "専修学校授業料",
+        "cpi_code": "8077",
+        "kakei_code": "080100100"
+      }
+    ],
+    "教科書・学習参考教材": [
+      {
+        "item_name": "教科書",
+        "cpi_code": "8110",
+        "kakei_code": "080200010"
+      },
+      {
+        "item_name": "学習参考教材",
+        "cpi_code": "8100",
+        "kakei_code": "080200020"
+      }
+    ],
+    "補習教育": [
+      {
+        "item_name": "補習教育",
+        "cpi_code": "8203",
+        "kakei_code": "110900000"
+      },
+      {
+        "item_name": "補習教育",
+        "cpi_code": "8201",
+        "kakei_code": "110900000"
+      },
+      {
+        "item_name": "補習教育",
+        "cpi_code": "8204",
+        "kakei_code": "110900000"
+      }
+    ]
+  },
+  "教養娯楽": {
+    "教養娯楽用耐久財": [
+      {
+        "item_name": "テレビ",
+        "cpi_code": "9013",
+        "kakei_code": "090100010"
+      },
+      {
+        "item_name": "ビデオレコーダー",
+        "cpi_code": "9034",
+        "kakei_code": "090100040"
+      },
+      {
+        "item_name": "パソコン",
+        "cpi_code": "9078",
+        "kakei_code": "090100050"
+      },
+      {
+        "item_name": "パソコン",
+        "cpi_code": "9079",
+        "kakei_code": "090100050"
+      },
+      {
+        "item_name": "プリンタ",
+        "cpi_code": "9081",
+        "kakei_code": "010800070"
+      },
+      {
+        "item_name": "カメラ",
+        "cpi_code": "9043",
+        "kakei_code": "090100060"
+      },
+      {
+        "item_name": "学習用机",
+        "cpi_code": "9061",
+        "kakei_code": "090100090"
+      }
+    ]
+  },
+  "教養娯楽用品": {
+    "玩具": [
+      {
+        "item_name": "家庭用ゲーム機",
+        "cpi_code": "9154",
+        "kakei_code": "090203010"
+      },
+      {
+        "item_name": "ゲームソフト",
+        "cpi_code": "9156",
+        "kakei_code": "090203150"
+      }
+    ],
+    "切り花": [
+      {
+        "item_name": "切り花",
+        "cpi_code": "9181",
+        "kakei_code": "090203060"
+      },
+      {
+        "item_name": "切り花",
+        "cpi_code": "9182",
+        "kakei_code": "090203060"
+      },
+      {
+        "item_name": "切り花",
+        "cpi_code": "9183",
+        "kakei_code": "090203060"
+      }
+    ],
+    "他の教養娯楽用品": [
+      {
+        "item_name": "ペットフード",
+        "cpi_code": "9193",
+        "kakei_code": "090204030"
+      },
+      {
+        "item_name": "ペットフード",
+        "cpi_code": "9196",
+        "kakei_code": "090204030"
+      },
+      {
+        "item_name": "電池",
+        "cpi_code": "9195",
+        "kakei_code": "090204080"
+      },
+      {
+        "item_name": "プリンタ用インク",
+        "cpi_code": "9128",
+        "kakei_code": "010800070"
+      }
+    ]
+  },
+  "書籍・他の印刷物": {
+    "新聞代": [
+      {
+        "item_name": "新聞代",
+        "cpi_code": "9204",
+        "kakei_code": "090300010"
+      },
+      {
+        "item_name": "新聞代",
+        "cpi_code": "9205",
+        "kakei_code": "090300010"
+      }
+    ]
+  },
+  "教養娯楽サービス": {
+    "宿泊料": [
+      {
+        "item_name": "宿泊料",
+        "cpi_code": "9300",
+        "kakei_code": "090410001"
+      }
+    ],
+    "パック旅行費": [
+      {
+        "item_name": "外国パック旅行費",
+        "cpi_code": "9305",
+        "kakei_code": "090420020"
+      }
+    ],
+    "月謝類": [
+      {
+        "item_name": "自動車教習料",
+        "cpi_code": "9320",
+        "kakei_code": "090430060"
+      }
+    ]
+  },
+  "他の教養娯楽サービス": {
+    "放送受信料": [
+      {
+        "item_name": "放送受信料",
+        "cpi_code": "9330",
+        "kakei_code": "090441000"
+      },
+      {
+        "item_name": "放送受信料",
+        "cpi_code": "9368",
+        "kakei_code": "090441000"
+      },
+      {
+        "item_name": "放送受信料",
+        "cpi_code": "9367",
+        "kakei_code": "090441000"
+      }
+    ],
+    "入場・観覧・ゲーム代": [
+      {
+        "item_name": "ゴルフプレー料金",
+        "cpi_code": "9357",
+        "kakei_code": "090442030"
+      },
+      {
+        "item_name": "文化施設入場料",
+        "cpi_code": "9374",
+        "kakei_code": "090442060"
+      }
+    ],
+    "他の娯楽サービス": [
+      {
+        "item_name": "インターネット接続料",
+        "cpi_code": "9397",
+        "kakei_code": "090442120"
+      }
+    ]
+  },
+  "諸雑費": {
+    "理美容サービス": [
+      {
+        "item_name": "入浴料",
+        "cpi_code": "9504",
+        "kakei_code": "100110010"
+      },
+      {
+        "item_name": "理髪料",
+        "cpi_code": "9511",
+        "kakei_code": "100110020"
+      },
+      {
+        "item_name": "パーマネント代",
+        "cpi_code": "9521",
+        "kakei_code": "100110030"
+      },
+      {
+        "item_name": "カット代",
+        "cpi_code": "9531",
+        "kakei_code": "100110040"
+      }
+    ],
+    "たばこ": [
+      {
+        "item_name": "たばこ",
+        "cpi_code": "9799",
+        "kakei_code": "100140001"
+      },
+      {
+        "item_name": "たばこ",
+        "cpi_code": "9798",
+        "kakei_code": "100140001"
+      }
+    ]
+  },
+  "理美容用品": {
+    "理容器具": [
+      {
+        "item_name": "電気かみそり",
+        "cpi_code": "9602",
+        "kakei_code": "010720030"
+      },
+      {
+        "item_name": "歯ブラシ",
+        "cpi_code": "9611",
+        "kakei_code": "100120020"
+      }
+    ],
+    "石けん類": [
+      {
+        "item_name": "シャンプー",
+        "cpi_code": "9622",
+        "kakei_code": "100121060"
+      },
+      {
+        "item_name": "ヘアコンディショナー",
+        "cpi_code": "9624",
+        "kakei_code": "100121070"
+      },
+      {
+        "item_name": "歯磨き",
+        "cpi_code": "9623",
+        "kakei_code": "100121080"
+      }
+    ],
+    "化粧品": [
+      {
+        "item_name": "養毛剤",
+        "cpi_code": "9641",
+        "kakei_code": "100121090"
+      },
+      {
+        "item_name": "化粧クリーム",
+        "cpi_code": "9650",
+        "kakei_code": "100121100"
+      },
+      {
+        "item_name": "化粧クリーム",
+        "cpi_code": "9652",
+        "kakei_code": "100121100"
+      },
+      {
+        "item_name": "化粧水",
+        "cpi_code": "9660",
+        "kakei_code": "100121110"
+      },
+      {
+        "item_name": "化粧水",
+        "cpi_code": "9661",
+        "kakei_code": "100121110"
+      },
+      {
+        "item_name": "乳液",
+        "cpi_code": "9690",
+        "kakei_code": "100121120"
+      },
+      {
+        "item_name": "乳液",
+        "cpi_code": "9692",
+        "kakei_code": "100121120"
+      },
+      {
+        "item_name": "ファンデーション",
+        "cpi_code": "9670",
+        "kakei_code": "100121130"
+      },
+      {
+        "item_name": "ファンデーション",
+        "cpi_code": "9672",
+        "kakei_code": "100121130"
+      },
+      {
+        "item_name": "口紅",
+        "cpi_code": "9680",
+        "kakei_code": "100121140"
+      },
+      {
+        "item_name": "口紅",
+        "cpi_code": "9682",
+        "kakei_code": "100121140"
+      },
+      {
+        "item_name": "ヘアカラーリング剤",
+        "cpi_code": "9625",
+        "kakei_code": "100121150"
+      }
+    ]
+  },
+  "身の回り用品": {
+    "かばん類": [
+      {
+        "item_name": "バッグ",
+        "cpi_code": "9721",
+        "kakei_code": "100132010"
+      },
+      {
+        "item_name": "バッグ",
+        "cpi_code": "9722",
+        "kakei_code": "100132010"
+      },
+      {
+        "item_name": "通学用かばん",
+        "cpi_code": "9711",
+        "kakei_code": "100132020"
+      },
+      {
+        "item_name": "旅行用かばん",
+        "cpi_code": "9731",
+        "kakei_code": "100132030"
+      }
+    ],
+    "腕時計・指輪": [
+      {
+        "item_name": "腕時計",
+        "cpi_code": "9751",
+        "kakei_code": "100133020"
+      }
+    ],
+    "他の身の回り用品": [
+      {
+        "item_name": "傘",
+        "cpi_code": "9701",
+        "kakei_code": "100131010"
+      }
+    ]
+  }
+}
