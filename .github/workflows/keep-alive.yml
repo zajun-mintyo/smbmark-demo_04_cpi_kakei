@@ -1,0 +1,44 @@
+name: Keep Streamlit App Alive
+
+on:
+  schedule:
+    # 12時間ごとに自動実行（UTC 0:00と12:00 ＝ 日本時間 9:00と21:00）
+    - cron: '0 */12 * * *'
+  # GitHubの「Actions」タブから手動でテスト実行できるようにするトリガー
+  workflow_dispatch:
+
+# リポジトリへのプッシュ（書き込み）権限を明示的に付与
+permissions:
+  contents: write
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. リポジトリの最新コード（mainブランチ）を取得
+      - name: リポジトリをチェックアウト
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # 2. requirements.txt の安全な更新
+      - name: requirements.txtのタイムスタンプを更新
+        run: |
+          if [ -s requirements.txt ] && [ "$(tail -c1 requirements.txt)" != "" ]; then
+            echo "" >> requirements.txt
+          fi
+          sed -i '/^# Last keep-alive:/d' requirements.txt
+          echo "# Last keep-alive: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> requirements.txt
+
+      # 3. 差分をコミットしてmainブランチへプッシュ
+      - name: 変更をコミットしてプッシュ
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add requirements.txt
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: keep alive ping [skip ci]"
+            git push origin main
+          else
+            echo "変更差分がないためコミットをスキップしました"
+          fi
