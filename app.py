@@ -113,6 +113,24 @@ def style_fig(fig, **layout_overrides):
 # --------------------------------------------------
 st.markdown(f"""
 <style>
+    /* Streamlit標準ヘッダー・ツールバー・デコレーションバーの白帯を除去し、下地のダーク背景を通す */
+    header[data-testid="stHeader"],
+    [data-testid="stToolbar"],
+    [data-testid="stAppToolbar"] {{
+        background: transparent !important;
+        background-color: transparent !important;
+    }}
+    [data-testid="stToolbarActions"] button,
+    [data-testid="stAppToolbar"] button {{
+        color: {TEXT_PRIMARY} !important;
+    }}
+    [data-testid="stDecoration"] {{
+        background: linear-gradient(90deg, {ACCENT} 0%, {PRICE_COLOR} 100%) !important;
+    }}
+    html, body {{
+        background-color: {BG_MAIN} !important;
+        color-scheme: dark;
+    }}
     .stApp {{
         background:
             radial-gradient(1100px 520px at 8% -8%, rgba(34,230,160,0.20), transparent 60%),
@@ -338,7 +356,8 @@ st.markdown(f"""
         letter-spacing: 0.04em;
         margin-bottom: 6px;
     }}
-    .stButton > button {{
+    .stButton > button,
+    [data-testid="stPopover"] button {{
         border-radius: 999px;
         border: 1px solid {GLASS_BORDER};
         background: {CHIP_GRAD};
@@ -349,15 +368,25 @@ st.markdown(f"""
         box-shadow: 0 6px 16px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.08);
         transition: all 0.15s ease;
     }}
-    .stButton > button:hover {{
+    .stButton > button:hover,
+    [data-testid="stPopover"] button:hover {{
         border-color: rgba(34,230,160,0.65);
         color: #B8FFE4;
         background: linear-gradient(180deg, rgba(34,230,160,0.24) 0%, #0D1017 100%);
         box-shadow: 0 6px 20px rgba(34,230,160,0.35), inset 0 1px 0 rgba(255,255,255,0.08);
         transform: translateY(-1px);
     }}
-    .stButton > button p {{
+    .stButton > button p,
+    [data-testid="stPopover"] button p {{
         color: inherit;
+    }}
+    /* デフォルトのブラウザフォーカスリング（赤/青の四角）をテーマカラーに統一 */
+    button:focus, button:focus-visible,
+    [role="tab"]:focus, [role="tab"]:focus-visible,
+    [data-baseweb="select"]:focus-within {{
+        outline: 2px solid rgba(34,230,160,0.55) !important;
+        outline-offset: 2px;
+        box-shadow: none !important;
     }}
 
     /* サイドバーのセレクト・ラジオ類 */
