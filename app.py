@@ -93,6 +93,7 @@ def add_gradient_bar_h(fig, y_labels, values, grad, name, n_bands=24, hover_pref
 def style_fig(fig, **layout_overrides):
     """v03のダークテーマに合わせたPlotlyの共通レイアウトを適用する"""
     base = dict(
+        dragmode=False,  # 矩形選択/ドラッグズームを無効化（ツールバー非表示でリセット手段がないため）
         font=CHART_FONT,
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
@@ -104,6 +105,10 @@ def style_fig(fig, **layout_overrides):
         margin=dict(t=40, l=10, r=10, b=10),
     )
     base.update(layout_overrides)
+    # 個別のxaxis/yaxis/yaxis2指定内にも、明示的な上書きがない限りfixedrangeを適用してズームを封じる
+    for ax_key in ("xaxis", "yaxis", "yaxis2"):
+        if ax_key in base and isinstance(base[ax_key], dict):
+            base[ax_key].setdefault("fixedrange", True)
     fig.update_layout(**base)
     return fig
 
@@ -514,6 +519,16 @@ def kpi_card(label, value, sub="", delta=None):
     """, unsafe_allow_html=True)
 
 
+def rank_header(title_html, caption_text, min_height=96):
+    """左右に並ぶランキングカードの見出し高さを揃え、下のグラフ枠の位置がずれないようにする"""
+    st.markdown(f"""
+    <div style="min-height:{min_height}px;">
+        <div style="font-weight:700; font-size:1.05rem; margin-bottom:4px;">{title_html}</div>
+        <div class="section-caption" style="margin-top:0;">{caption_text}</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+
 # --------------------------------------------------
 # 2. 定数・マスター定義（Secretsから安全に取得）
 # --------------------------------------------------
@@ -893,8 +908,10 @@ with tab_rank:
         col_r1, col_r2 = st.columns(2)
 
         with col_r1:
-            st.markdown("#### 🟩 値上げ受容ランキング TOP 10")
-            st.caption("価格（CPI）が上昇しても、家計支出が落ちていない（客離れが起きにくい品目）")
+            rank_header(
+                "🟩 値上げ受容ランキング TOP 10",
+                "価格（CPI）が上昇しても、家計支出が落ちていない（客離れが起きにくい品目）"
+            )
             fig_pass = go.Figure()
             add_gradient_bar_h(
                 fig_pass, df_pass["item_name"], df_pass["kakei_yoy"],
@@ -919,8 +936,10 @@ with tab_rank:
             st.plotly_chart(fig_pass, use_container_width=True, config=PLOTLY_CONFIG)
 
         with col_r2:
-            st.markdown("#### 🟥 買い控え警戒ランキング TOP 10")
-            st.caption("価格（CPI）の上昇に対し、家計支出が大きく減少している（節約・離脱リスクが高い品目）")
+            rank_header(
+                "🟥 買い控え警戒ランキング TOP 10",
+                "価格（CPI）の上昇に対し、家計支出が大きく減少している（節約・離脱リスクが高い品目）"
+            )
             fig_risk = go.Figure()
             add_gradient_bar_h(
                 fig_risk, df_risk["item_name"], df_risk["kakei_yoy"],
