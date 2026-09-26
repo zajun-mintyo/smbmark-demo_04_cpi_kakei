@@ -98,7 +98,8 @@ def style_fig(fig, **layout_overrides):
         paper_bgcolor='rgba(0,0,0,0)',
         legend=dict(
             orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1,
-            bgcolor="rgba(255,255,255,0.03)", bordercolor="rgba(255,255,255,0.08)", borderwidth=1
+            bgcolor="rgba(8,11,17,0.92)", bordercolor=GLASS_BORDER, borderwidth=1,
+            font=dict(color=TEXT_PRIMARY, size=12),
         ),
         margin=dict(t=40, l=10, r=10, b=10),
     )
@@ -146,6 +147,16 @@ st.markdown(f"""
         background-clip: text;
         -webkit-text-fill-color: transparent;
         text-shadow: 0 0 40px rgba(34,230,160,0.25);
+    }}
+    /* 絵文字はグラデーション文字クリップの対象外にする（白い四角化を防止） */
+    h1 .title-icon {{
+        -webkit-text-fill-color: {TEXT_PRIMARY} !important;
+        color: {TEXT_PRIMARY} !important;
+        background: none !important;
+        -webkit-background-clip: initial !important;
+        background-clip: initial !important;
+        text-shadow: none;
+        filter: drop-shadow(0 0 12px rgba(34,230,160,0.45));
     }}
     /* KPIカード */
     .kpi-card {{
@@ -409,12 +420,25 @@ st.markdown(f"""
         box-shadow: {SHADOW_CARD};
     }}
 
-    /* ポップオーバー本体 */
-    div[data-baseweb="popover"] > div {{
-        background: {BG_CARD} !important;
+    /* ポップオーバー本体（Streamlitのバージョン差異に対応し複数パターンを網羅） */
+    div[data-baseweb="popover"] [role="tooltip"],
+    div[data-baseweb="popover"] > div,
+    div[data-baseweb="popover"] div[data-testid="stPopoverBody"],
+    [data-testid="stPopoverBody"] {{
+        background: {CARD_GRAD} !important;
+        background-color: {BG_CARD} !important;
         border: 1px solid {GLASS_BORDER} !important;
-        border-radius: 14px !important;
+        border-radius: 16px !important;
         box-shadow: {SHADOW_CARD} !important;
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+    }}
+    div[data-baseweb="popover"] [role="tooltip"] *,
+    div[data-baseweb="popover"] > div *,
+    div[data-baseweb="popover"] div[data-testid="stPopoverBody"] *,
+    [data-testid="stPopoverBody"] * {{
+        color: {TEXT_PRIMARY} !important;
+        -webkit-text-fill-color: {TEXT_PRIMARY} !important;
     }}
 
     /* 区切り線 */
@@ -747,7 +771,10 @@ def get_ranking_data():
 # --------------------------------------------------
 col_title, col_help = st.columns([4, 1.2])
 with col_title:
-    st.title("📊 SMBMARK｜消費・物価トレンド分析ダッシュボード")
+    st.markdown(
+        '<h1><span class="title-icon">📊</span> SMBMARK｜消費・物価トレンド分析ダッシュボード</h1>',
+        unsafe_allow_html=True,
+    )
     st.caption("物価（CPI）× 家計消費から読み解く、中小企業のための値上げ・需要予測インテリジェンス")
 
 with col_help:
@@ -856,8 +883,9 @@ with tab_rank:
             style_fig(
                 fig_pass,
                 barmode="stack", bargap=0.3, hovermode="closest", height=480,
-                yaxis=dict(autorange="reversed", title="", gridcolor=GRID_COLOR),
+                yaxis=dict(autorange="reversed", title="", gridcolor=GRID_COLOR, automargin=False),
                 xaxis=dict(title="前年同月比 変化率 (%)", ticksuffix="%", gridcolor=GRID_COLOR),
+                margin=dict(t=40, l=210, r=20, b=50),
             )
             st.plotly_chart(fig_pass, use_container_width=True, config=PLOTLY_CONFIG)
 
@@ -881,8 +909,9 @@ with tab_rank:
             style_fig(
                 fig_risk,
                 barmode="stack", bargap=0.3, hovermode="closest", height=480,
-                yaxis=dict(autorange="reversed", title="", gridcolor=GRID_COLOR),
+                yaxis=dict(autorange="reversed", title="", gridcolor=GRID_COLOR, automargin=False),
                 xaxis=dict(title="前年同月比 変化率 (%)", ticksuffix="%", gridcolor=GRID_COLOR),
+                margin=dict(t=40, l=210, r=20, b=50),
             )
             st.plotly_chart(fig_risk, use_container_width=True, config=PLOTLY_CONFIG)
 
